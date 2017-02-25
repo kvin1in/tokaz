@@ -1,0 +1,22 @@
+{
+  "name": "full-page",
+  "authors": [
+    "Kirill Sh <kshumov89@gmail.com>"
+  ],
+  "description": "myfullpage",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer-fullpage": "^1.0.0",
+    "awesome-slider": "*",
+    "l2t-paper-slider": "^1.2.6"
+  }
+}

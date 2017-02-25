@@ -1,0 +1,28 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+
+
+<dom-module id="my-slider">
+
+    <style>
+         :host {
+            display: block;
+        }
+    </style>
+
+    <template>
+    <awesome-slider height="x60%" color="grey" arrows="true">
+        <item source="/img/1.jpg"></item>
+        <item source="/img/2.jpg"></item>
+        <item source="/img/3.jpg"></item>
+    </awesome-slider>
+  </template>
+
+    <script>
+        Polymer({
+            is: 'my-slider',
+
+        });
+    </script>
+
+</dom-module>
